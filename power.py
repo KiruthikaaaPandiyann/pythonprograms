@@ -1,0 +1,5 @@
+k=input()
+k1=k.split()
+a=int(k1[0])
+b=int(k1[1])
+print(a**b)
