@@ -1,0 +1,10 @@
+s=input()
+s1=s.split()
+n=int(s1[0])
+a=int(s1[1])
+d=int(s1[2])
+x1=n/2
+x2=2*a
+x3=(n-1)*d
+sum=x1*(x2+x3)
+print(round(sum))
