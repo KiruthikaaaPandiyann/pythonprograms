@@ -1,0 +1,10 @@
+s=input()
+s1=s.split()
+a=s1[0]
+b=s1[1]
+if(len(a)>len(b)):
+    print(a)
+if(len(b)>len(a)):
+    print(b)
+if(len(a)==len(b)):
+    print(a)
