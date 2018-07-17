@@ -1,0 +1,9 @@
+n1=input()
+n2=n1.split()
+a=int(n2[0])
+b=int(n2[1])
+n=a*b
+if(n%2==0):
+    print("even")
+else:
+    print("odd")
